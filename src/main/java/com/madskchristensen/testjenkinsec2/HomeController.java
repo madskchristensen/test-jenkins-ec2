@@ -11,4 +11,9 @@ public class HomeController {
 
         return "index";
     }
+
+    @GetMapping("/jenkins")
+    public String jenkinsLandingPage() {
+        return "redirect:127.0.0.1:8080";
+    }
 }
