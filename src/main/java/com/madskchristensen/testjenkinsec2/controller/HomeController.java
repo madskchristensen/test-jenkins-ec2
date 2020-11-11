@@ -1,4 +1,4 @@
-package com.madskchristensen.testjenkinsec2;
+package com.madskchristensen.testjenkinsec2.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
