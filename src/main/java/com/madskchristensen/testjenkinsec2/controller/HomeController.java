@@ -6,6 +6,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import javax.servlet.http.HttpServletRequest;
 
+
+/*
+    Dette er en controller
+ */
+
 @Controller
 public class HomeController {
 
