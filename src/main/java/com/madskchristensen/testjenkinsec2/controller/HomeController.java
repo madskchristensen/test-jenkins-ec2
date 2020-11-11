@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 
 
 /*
-    Dette er en controller
+    Dette er en controller igen
  */
 
 @Controller
