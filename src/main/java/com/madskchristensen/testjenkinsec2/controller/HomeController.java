@@ -5,9 +5,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import javax.servlet.http.HttpServletRequest;
-/*
-    En controller klasse
- */
+
 @Controller
 public class HomeController {
 
