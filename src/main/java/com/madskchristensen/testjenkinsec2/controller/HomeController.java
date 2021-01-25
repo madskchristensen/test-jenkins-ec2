@@ -1,10 +1,15 @@
-package com.madskchristensen.testjenkinsec2;
+package com.madskchristensen.testjenkinsec2.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import javax.servlet.http.HttpServletRequest;
+
+
+/*
+    Dette er en controller igen
+ */
 
 @Controller
 public class HomeController {
@@ -17,6 +22,6 @@ public class HomeController {
 
     @GetMapping("/jenkins")
     public String jenkinsLandingPage() {
-        return "redirect:http://54.81.145.200:8080/";
+        return "redirect:http://52.4.223.114:8080/";
     }
 }
